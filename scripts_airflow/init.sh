@@ -19,6 +19,6 @@ airflow connections add 'dbt_postgres_instance_raw_data' --conn-type 'postgres' 
 --conn-password ${DBT_POSTGRES_PASSWORD} --conn-host ${DBT_POSTGRES_HOST} --conn-port ${POSTGRES_PORT} --conn-schema ${DBT_POSTGRES_DB}
 
 #airflow connections --add --conn_id 'dbt_postgres_instance_raw_data' --conn_uri $DBT_POSTGRESQL_CONN
-airflow users create --email sarvindu.kumar@gmail.com --firstname Sarvindu --lastname Kumar --password admin --role Admin --username admin
+airflow users create --email admin --firstname Sarvindu --lastname Kumar --password admin --role Admin --username admin
 airflow scheduler & airflow webserver
 
