@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="sample_data">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sample_data/departments.csv.zip!/" />
+      <root url="jar://$PROJECT_DIR$/sample_data/aisles.csv.zip!/" />
+      <root url="jar://$PROJECT_DIR$/sample_data/order_products__train.csv.zip!/" />
+      <root url="jar://$PROJECT_DIR$/sample_data/orders.csv.zip!/" />
+      <root url="jar://$PROJECT_DIR$/sample_data/products.csv.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
